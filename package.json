@@ -1,6 +1,6 @@
 {
   "name": "cookie-lite",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Super lightweight cookie parser and serializer",
   "main": "index.js",
   "files": [
