@@ -4,8 +4,11 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "cookie-lite",
   description: "Super lightweight cookie parser and serializer",
+  lastUpdated: true,
+  ignoreDeadLinks: 'localhostLinks',
+  base: '/cookie-lite',
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }]
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/cookie-lite/favicon.svg' }]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -40,8 +43,8 @@ export default defineConfig({
 
     // Footer configuration
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2024-present Leela Prasad V'
+      message: '',
+      copyright: 'Copyright © 2024 Leela Prasad V'
     }
   }
 })
