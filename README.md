@@ -3,7 +3,7 @@ Super lightweight cookie parser and serializer
 
 
 ---
-> Friendly fork of ethan7g/cookieLite post it's deprecation https://github.com/ethan7g/cookieLite/issues/3
+> Friendly fork of ethan7g/lightcookie post it's deprecation https://github.com/ethan7g/lightcookie/issues/3
 
 > Super lightweight cookie parser and serializer
 
