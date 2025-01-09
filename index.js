@@ -2,7 +2,7 @@ const parseRegex = /([^=; ]+)=?([^;]+)?;?/g; // Formerly ([A-Za-z0-9%]+)=?([A-Za
 
 /**
 * Super lightweight cookie parser and serializer
-* @module lightcookie
+* @module cookie-lite
 */
 
 module.exports = {

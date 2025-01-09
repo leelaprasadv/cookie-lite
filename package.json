@@ -1,32 +1,36 @@
 {
-  "name": "lightcookie",
-  "version": "1.0.25",
+  "name": "cookie-lite",
+  "version": "0.0.1",
   "description": "Super lightweight cookie parser and serializer",
   "main": "index.js",
   "files": [
     "index.js"
   ],
   "scripts": {
-    "test": "node test.js",
+    "test": "uvu tests",
     "prepublishOnly": "npm install --dev && npm test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ethanent/lightcookie.git"
+    "url": "git+https://github.com/leelaprasadv/cookie-lite.git"
   },
   "keywords": [
     "cookie",
+    "cookie-lite",
     "lightcookie",
     "cookie-parse",
     "cookie-serialize"
   ],
-  "author": "Ethan Davis",
+  "author": "Leela Prasad V",
   "license": "SEE LICENSE IN LICENSE.md",
   "bugs": {
-    "url": "https://github.com/ethanent/lightcookie/issues"
+    "url": "https://github.com/leelaprasadv/cookie-lite/issues"
   },
-  "homepage": "https://github.com/ethanent/lightcookie#readme",
+  "homepage": "https://github.com/leelaprasadv/cookie-lite#readme",
   "devDependencies": {
-    "whew": "^1.1.2"
-  }
+    "uvu": "^0.5.6"
+  },
+  "engines": {
+    "node": ">=18"
+}
 }

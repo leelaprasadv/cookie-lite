@@ -1,38 +1,40 @@
-<p align="center" style="text-align: center;"><img src="https://raw.githubusercontent.com/ethanent/lightcookie/4fdf48278e34f3b2aa75b644271da8a3fddb792b/media/lightcookie-textIncluded.png" width="300" alt="lightcookie logo"/></p>
+<p align="center" style="text-align: center;"><img src="" width="300" alt="cookieLite logo"/></p>
+Super lightweight cookie parser and serializer
+
 
 ---
+> Friendly fork of ethan7g/cookieLite post it's deprecation https://github.com/ethan7g/cookieLite/issues/3
 
 > Super lightweight cookie parser and serializer
 
-[Full documentation](https://ethanent.github.io/lightcookie/) | [GitHub](https://github.com/ethanent/lightcookie) | [NPM](https://www.npmjs.com/package/lightcookie)
+[Full documentation](https://github.com/leelaprasadv/cookie-lite) | [GitHub](https://github.com/leelaprasadv/cookie-lite) | [NPM](https://www.npmjs.com/package/cookie-lite)
 
 ## Installation
 
 ```shell
-npm i --save lightcookie
+npm i --save cookie-lite
 ```
 
 ## Parsing cookie strings
 
 ```javascript
-const lightcookie = require('lightcookie')
+const cookieLite = require('cookie-lite')
 
-lightcookie.parse('foo=bar; copyright=%C2%A9;another=test') // {foo: 'bar', copyright: '©', another: 'test'}
+cookieLite.parse('foo=bar; copyright=%C2%A9;another=test') // {foo: 'bar', copyright: '©', another: 'test'}
 ```
 
 ## Serializing objects to cookie strings
 
 ```javascript
-lightcookie.serialize({
-	name: 'Ethan',
+cookieLite.serialize({
+	name: 'Choco',
 	'HttpOnly': null
-}) // 'name=Ethan;HttpOnly'
+}) // 'name=Choco;HttpOnly'
 ```
 
-## Why lightcookie?
+## Why cookie-lite?
 
-lightcookie is super lightweight. It's over much more lightweight than cookie, another popular cookie package. lightcookie is the way to go for efficiency as it parses using JS regular expressions!
+cookie-lite is super lightweight. It's over much more lightweight than cookie, another popular cookie package. cookie-lite is the way to go for efficiency as it parses using JS regular expressions!
 
-## Documentation
 
-Have a look at [the full documentation](https://ethanent.github.io/lightcookie/) for details about using the library!
+

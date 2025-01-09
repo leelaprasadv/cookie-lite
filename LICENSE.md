@@ -1,6 +1,6 @@
 License information: https://github.com/omnent/omnent-licenses/blob/master/licenses/OMv2-FO.txt
 
-Copyright 2017 Ethan Davis
+Copyright 2024 Leela Prasad V
 
 Permission is hereby granted, for free, to any person obtaining a copy of this software and associated documentation files (collectively "the Software" or "THE SOFTWARE"), to (without restriction) use, modify, copy, publish, execute, distribute, sublicense, and sell the Software and to allow people who gain access to the Software to do the same as long as this entire license and the above copyright notice are included in all copies or portions of the Software.
 
