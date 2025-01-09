@@ -1,4 +1,4 @@
-<p align="center" style="text-align: center;"><img src="" width="300" alt="cookieLite logo"/></p>
+<p align="center" style="text-align: center;"><img src="./docs/public/banner.svg" width="300" alt="cookie-lite logo"/></p>
 Super lightweight cookie parser and serializer
 
 

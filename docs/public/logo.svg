@@ -1,0 +1,17 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main cookie circle -->
+  <circle cx="64" cy="64" r="60" fill="#D4A76A"/>
+  
+  <!-- Cookie texture - chocolate chips -->
+  <circle cx="45" cy="45" r="8" fill="#3E2723"/>
+  <circle cx="85" cy="40" r="8" fill="#3E2723"/>
+  <circle cx="40" cy="80" r="8" fill="#3E2723"/>
+  <circle cx="90" cy="75" r="8" fill="#3E2723"/>
+  <circle cx="64" cy="60" r="8" fill="#3E2723"/>
+  
+  <!-- Bite mark -->
+  <path d="M 110,50 A 60,60 0 0,1 95,95 L 85,85 A 45,45 0 0,0 95,50 Z" fill="#C69455"/>
+  
+  <!-- Light reflection -->
+  <circle cx="40" cy="40" r="20" fill="rgba(255,255,255,0.2)"/>
+</svg> 
